@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body{
     margin: 0;
 font-family: 'Noto Serif', serif;
@@ -87,11 +90,11 @@ margin-left: 2%;
 
 .item img{
     width: 90%;
-    padding: 30px;
+    padding: 20px;
 }
 /*---------------------Footer Section--------------------------*/
 .black-footer{
-    color: blanchedalmond;
+    color: white;
 text-align: center;
 background-color: black;
 padding: 30px;
@@ -104,59 +107,3 @@ margin-top: 50px;
 
 
 /*---------------------form Section--------------------------*/
-.imgBx2{
-    background: url(pic/bg2.jpg);
-    background-size: cover;
-    background-position: center;
-    width: 50%;
-}
-.redbg{
-    background: url(pic/red.jpg);
-    background-size: cover;
-    background-position: center;
-}
-.form .inputBx{
-    margin-bottom: 40px;
-}
-.form .inputBx input
-{
-    width: 100%;
-    background: transparent;
-    box-shadow: none;
-    border:none;
-    padding: 10px 0;
-    font-size: 18px;
-    font-weight: 300;
-    color: #fff;
-    border-bottom: 2px solid #fff;
-}
-.form .inputBx input::placeholder
-{
-    color: #fff;
-}
-
-.form .inputBx textarea
-{
-    width: 100%;
-    background: transparent;
-    box-shadow: none;
-    border:none;
-    padding: 10px 0;
-    font-size: 18px;
-    font-weight: 300;
-    color: #fff;
-    min-height: 150px;
-    border-bottom: 2px solid #fff;
-}
-.form .inputBx textarea::placeholder
-{
-    color: #fff;
-}
-.form .inputBx input[type="submit"]
-{
-    width: 150px;
-    background: #fff;
-    color:#111;
-    cursor: pointer;
-    font-weight: 400;
-}
