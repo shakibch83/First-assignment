@@ -16,15 +16,15 @@ h2{
 }
 .flexiable-container{
     display: flex;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 .half-width{
     width: 50%;
     margin-left: 2%;
+
 }
 .half-width p{
     
-    margin-bottom: 150px;
     font-size: 30px;
 }
 .half-width img{
@@ -51,12 +51,12 @@ h2{
     height: 675px;
     width: 459px;
 }
-/*
+
 #about-paragraph{
     font-size: 30px;
-    margin-bottom: 180px;
+    margin-bottom: 130px;
    
-}  */
+}  
 .contact-button{
     text-decoration: none;
     background-image: linear-gradient(rgb(5, 207, 243), tomato);
@@ -76,10 +76,13 @@ margin-left: 2%;
 
 }
    .item{
-       width: 33%;
-    border-radius: 30px;
-margin-right: 20px;
-box-shadow: 10px 10px 20px rebeccapurple;
+       margin-top: 20px;
+        margin-bottom: 70px;
+        width: 33%;
+        border-radius: 30px;
+        margin-right: 20px;
+        box-shadow: 10px 10px 20px rebeccapurple;
+
 }
 
 .item img{
@@ -92,9 +95,68 @@ box-shadow: 10px 10px 20px rebeccapurple;
 text-align: center;
 background-color: black;
 padding: 30px;
-margin-top: 20px;
+margin-top: 50px;
 }
 
 .orange-color{
     color: orange;
+}
+
+
+/*---------------------form Section--------------------------*/
+.imgBx2{
+    background: url(pic/bg2.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+}
+.redbg{
+    background: url(pic/red.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.form .inputBx{
+    margin-bottom: 40px;
+}
+.form .inputBx input
+{
+    width: 100%;
+    background: transparent;
+    box-shadow: none;
+    border:none;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+.form .inputBx input::placeholder
+{
+    color: #fff;
+}
+
+.form .inputBx textarea
+{
+    width: 100%;
+    background: transparent;
+    box-shadow: none;
+    border:none;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+    min-height: 150px;
+    border-bottom: 2px solid #fff;
+}
+.form .inputBx textarea::placeholder
+{
+    color: #fff;
+}
+.form .inputBx input[type="submit"]
+{
+    width: 150px;
+    background: #fff;
+    color:#111;
+    cursor: pointer;
+    font-weight: 400;
 }
