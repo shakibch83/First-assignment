@@ -6,6 +6,7 @@ font-family: 'Noto Serif', serif;
 h1{
 font-size: 50px;
 margin-left: 50px;
+margin-bottom: 60px;
 }
 h2{
     font-size: 45px;
@@ -21,27 +22,79 @@ h2{
     width: 50%;
     margin-left: 2%;
 }
+.half-width p{
+    
+    margin-bottom: 150px;
+    font-size: 30px;
+}
 .half-width img{
     width: 90%;
+    height: 80;
 }
 .menu-button{
     text-decoration: none;
-    background-image: linear-gradient(orange, tomato);
+    background-image: linear-gradient(#a62fff, #28d7ff);
     color: white;
     font-weight: 700;
     padding:10px 20px;
-    border-radius: 5px;
+    border-radius: 25px;
+}
+/*--------------------2ND Section--------------------------*/
+.full-bg{
+    background-image: url(pic/7.png);
+    background-repeat: no-repeat;
+    background-size: 1920px 700px;
+}
+.full-bg img{
+    margin: 23px 200px;
+    padding: 2px;
+    height: 675px;
+    width: 459px;
+}
+/*
+#about-paragraph{
+    font-size: 30px;
+    margin-bottom: 180px;
+   
+}  */
+.contact-button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(5, 207, 243), tomato);
+    color: white;
+    font-weight: 700;
+    padding:10px 20px;
+    border-radius: 25px;
+}
+/*-------------------Recipies Section--------------------------*/
+.flexiable-container-2{
+display: flex;
+margin-left: 2%;
+
+}
+.items {
+    text-align: center;
+
+}
+   .item{
+       width: 33%;
+    border-radius: 30px;
+margin-right: 20px;
+box-shadow: 10px 10px 20px rebeccapurple;
 }
 
+.item img{
+    width: 90%;
+    padding: 30px;
+}
+/*---------------------Footer Section--------------------------*/
+.black-footer{
+    color: blanchedalmond;
+text-align: center;
+background-color: black;
+padding: 30px;
+margin-top: 20px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.orange-color{
+    color: orange;
+}
